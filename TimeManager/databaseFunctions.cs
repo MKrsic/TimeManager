@@ -13,6 +13,7 @@ namespace TimeManager
     {
 
         SqlConnection con = new SqlConnection();
+		//TODO: change database path to project path
         string connection = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\Projekti\\_Razno\\TimeManager\\TimeManager\\Database1.mdf;Integrated Security=True";
 
         public void loginTime(double minutesDelay)
